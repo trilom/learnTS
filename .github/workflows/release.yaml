@@ -58,7 +58,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn build
-      - run: yarn test-coverage
+      - run: yarn test
   # integration test with jest
   test-integration:
     name: jest integration tests
