@@ -16,8 +16,6 @@ Build an application with typescript.
 
 #### Infrastructure
 
-AWS CDK [aws-lambda-nodejs](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-lambda-nodejs-readme.html) module to `import` our function code and deploy to an AWS account.
-
 #### CI/CD
 
 Accomplished using Github Actions for **free**.
@@ -64,17 +62,14 @@ Github Action to run `yarn deploy --prod` this will deploy to prod.  `yarn deplo
   
 #### View
 
+Slack App
+OR
+React App
 
 #### Backend
 
+[AWS Lambda](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-lambda-nodejs-readme.html)
 
 #### Datastore
 
-
-
-### How
-
-Use:
-    - Typescript 3.8
-    - VSCode
-### What
+[AWS DynamoDB](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-dynamodb.Table.html)
