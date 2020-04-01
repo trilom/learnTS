@@ -11,10 +11,30 @@
 ## Goals
 
 Build an application with typescript.
+Learn Typescript
 
 ### Application
 
-#### Infrastructure
+Learning
+  - Primatives
+  - Iterators
+  - Logic
+  - Comperators
+
+Small Application - Interact with the Node lib
+  - [NodeJS Application](https://nodejs.org/docs/latest-v12.x/api/)
+
+Command Line Application - Build a simple CLI app with Gluegun
+  - Use [Gluegun](https://github.com/infinitered/gluegun)
+
+Simple Website - Render HTML with express.
+  - [Express](https://levelup.gitconnected.com/how-to-set-up-a-typescript-node-js-app-in-5-minutes-93ffee3b1768)
+
+Complex Website - Render HTML with Gatsby
+  - [Gatsby](https://github.com/resir014/gatsby-starter-typescript-plus)
+  - [Storybook](https://www.learnstorybook.com/intro-to-storybook)
+
+### Infrastructure
 
 #### CI/CD
 
@@ -61,10 +81,7 @@ Github Action to run `yarn deploy --prod` this will deploy to prod.  `yarn deplo
   - After semantic release, `deploy` will to deploy the application to [AWS](https://aws.amazon.com/) using [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html).
   
 #### View
-
-Slack App
-OR
-React App
+React/Gatsby
 
 #### Backend
 

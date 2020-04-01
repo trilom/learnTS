@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "yarn && tsc -p ../../ --outDir .",
+    "start": "yarn build && tsc-watch -p ../../ --outDir . --onSuccess \"node index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  }
+}
